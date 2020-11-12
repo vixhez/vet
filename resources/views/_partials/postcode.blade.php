@@ -1,0 +1,1 @@
+<p class="mb-1">{{ $owner->postcode }}</p>

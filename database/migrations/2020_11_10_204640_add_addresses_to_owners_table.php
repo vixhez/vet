@@ -14,10 +14,10 @@ class AddAddressesToOwnersTable extends Migration
     public function up()
     {
         Schema::table('owners', function (Blueprint $table) {
-            $table->string("address_1");
+            $table->string("address_1")->nullable();
             $table->string("address_2")->nullable();
-            $table->string("town");
-            $table->string("postcode");
+            $table->string("town")->nullable();
+            $table->string("postcode")->nullable();
         });
     }
 

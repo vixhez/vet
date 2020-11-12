@@ -1,0 +1,1 @@
+<title>My Amazing Blog</title>
